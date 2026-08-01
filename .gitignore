@@ -1,0 +1,71 @@
+# This repository is DOCUMENTATION ONLY.
+#
+# aion-indian-market-calendar is released to PyPI and nowhere else — PyPI is the
+# single source of installation. The package is never built, released, or
+# mirrored from here. These rules exist so package artefacts cannot be committed
+# into the docs repo by accident.
+#
+#   pip install aion-indian-market-calendar
+#   https://pypi.org/project/aion-indian-market-calendar/
+
+# ── Package source ─────────────────────────────────────────────────────────
+src/
+aion_indian_market_calendar/
+tests/
+scripts/
+deployment/
+publish_assets/
+*.py
+
+# ── Packaging and release machinery ────────────────────────────────────────
+pyproject.toml
+setup.py
+setup.cfg
+MANIFEST.in
+release.sh
+requirements*.txt
+tox.ini
+noxfile.py
+
+# ── Build artefacts and distributions ──────────────────────────────────────
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+*.whl
+*.tar.gz
+
+# ── Exchange data, live overrides, generated calendars ─────────────────────
+data/
+*.json
+!.github/**/*.json
+live_events.json
+live_cache.json
+*.yaml
+*.yml
+!.github/**/*.yml
+!.github/**/*.yaml
+
+# ── Secrets and local config ───────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+api_tokens.json
+.aion/
+
+# ── Python runtime ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Editor / OS ────────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
