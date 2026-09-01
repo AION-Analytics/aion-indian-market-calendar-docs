@@ -1,5 +1,13 @@
 # aion-indian-market-calendar
 
+> **Source code has moved.** The package source now lives at
+> **[aion-india-market-calendar](https://github.com/AION-Analytics-India/aion-india-market-calendar)**.
+> This repository holds documentation only.
+>
+> - Source: https://github.com/AION-Analytics-India/aion-india-market-calendar
+> - Package: https://pypi.org/project/aion-indian-market-calendar/
+> - Full write-up: https://dashboard.aiondashboard.site/open-source/indian-market-calendar
+
 Indian market calendar for NSE, BSE, and MCX — Python package.
 
 [![PyPI version](https://img.shields.io/pypi/v/aion-indian-market-calendar)](https://pypi.org/project/aion-indian-market-calendar/)
