@@ -1,10 +1,10 @@
 # aion-indian-market-calendar
 
 > **Source code has moved.** The package source now lives at
-> **[aion-india-market-calendar](https://github.com/AION-Analytics-India/aion-india-market-calendar)**.
+> **[aion-indian-market-calendar](https://github.com/AION-Analytics-India/aion-indian-market-calendar)**.
 > This repository holds documentation only.
 >
-> - Source: https://github.com/AION-Analytics-India/aion-india-market-calendar
+> - Source: https://github.com/AION-Analytics-India/aion-indian-market-calendar
 > - Package: https://pypi.org/project/aion-indian-market-calendar/
 > - Full write-up: https://dashboard.aiondashboard.site/open-source/indian-market-calendar
 
